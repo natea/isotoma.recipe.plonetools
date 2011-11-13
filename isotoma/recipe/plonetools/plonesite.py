@@ -1,6 +1,6 @@
 import os, sys
 from datetime import datetime
-from zope.app.component.hooks import setSite
+from zope.component.hooks import setSite
 import zc.buildout
 import transaction
 from AccessControl.SecurityManagement import newSecurityManager
